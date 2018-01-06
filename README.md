@@ -6,7 +6,8 @@ To achieve this goal, a multi-layer convolutional neural network was implemented
 
 Below are sample testing images that the model classified as a Mexican Hairless Dog and a Staffordshire Bull Terrier, respectively, each with a probability greater than 0.99.
 
-
+![759edf89ed163128e485238a7c7cd21b](https://user-images.githubusercontent.com/29763261/34633576-d9dc64a0-f231-11e7-9356-ec8da0290879.jpg)
+![e783e22d4f370b6cc0b1f44b4d6584a8](https://user-images.githubusercontent.com/29763261/34633578-db17b1e4-f231-11e7-9159-50113baf4f41.jpg)
 
 As seen above, the model definitely displayed promise in terms of being able to recognize very distinct breeds. However, to limit expense, the number of convolutional layers was limited and the model was only trained for 100 epochs. Thus, it is likely that tuning the network and allowing for more training time would have added a significant improvement to performance.
 
